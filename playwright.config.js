@@ -8,7 +8,7 @@ export default defineConfig({
 
     use: {
     baseURL: 'https://opensource-demo.orangehrmlive.com',
-    headless: false,
+    headless: true,
     viewport: { width: 1280, height: 720 },
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',

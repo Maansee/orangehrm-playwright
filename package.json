@@ -1,0 +1,21 @@
+{
+  "name": "orangehrm-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts":{
+    "test": "npx playwright test",
+    "test:login": "npx playwright test tests/login.spec.js",
+    "test:pim": "npx playwright test tests/pim.spec.js",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "OrangeHRM POM framework using Playwright",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}

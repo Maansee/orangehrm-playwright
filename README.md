@@ -1,3 +1,5 @@
+![Playwright Tests](https://github.com/Maansee/orangehrm-playwright/actions/workflows/playwright.yml/badge.svg)
+
 # OrangeHRM Playwright Automation
 
 Automation framework for OrangeHRM using Playwright and Page Object Model.

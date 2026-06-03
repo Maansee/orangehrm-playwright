@@ -30,6 +30,7 @@ export class LoginPage {
     }
 
     async getErrorMessage() {
+    await this.page.locator(LOGIN_LOCATORS.errorMessage).waitFor({ state: 'visible' });    
     return await this.page.locator(LOGIN_LOCATORS.errorMessage).textContent();
   }
 
